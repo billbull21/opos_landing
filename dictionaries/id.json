@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "contact": "Hubungi Pengembang"
+  },
+  "hero": {
+    "badge": "Saat ini dalam Private Beta",
+    "title": "Berdayakan Bisnis Anda,",
+    "subtitle": "Solusi Point of Sale lengkap yang dirancang untuk usaha kecil. Lacak penjualan, kelola stok, dan kembangkan bisnis Anda tanpa bergantung pada koneksi internet.",
+    "cta_request": "Minta Akses",
+    "cta_learn_more": "Pelajari Lebih Lanjut",
+    "screenshot_placeholder": "Placeholder Screenshot Aplikasi",
+    "screenshot_desc": "Dashboard / Tampilan Utama POS"
+  },
+  "features": {
+    "title": "Segala yang Anda butuhkan untuk menjalankan toko",
+    "subtitle": "Dibangun dengan fokus pada keandalan dan kecepatan, OPOS memberi Anda alat untuk mengelola bisnis secara efisien.",
+    "offline": {
+      "title": "Sepenuhnya Offline",
+      "desc": "Jangan khawatir tentang gangguan internet lagi. OPOS bekerja 100% offline, memastikan bisnis Anda tetap berjalan lancar apa pun yang terjadi."
+    },
+    "rich": {
+      "title": "Fitur Kaya",
+      "desc": "Dari pelacakan penjualan hingga manajemen inventaris, dapatkan alat canggih yang dirancang khusus untuk kebutuhan usaha kecil."
+    },
+    "backup": {
+      "title": "Backup & Restore Manual",
+      "desc": "Data Anda milik Anda. Buat cadangan seluruh database Anda dengan mudah dan pulihkan kapan pun Anda membutuhkannya."
+    },
+    "sync": {
+      "title": "Sinkronisasi Google Drive",
+      "desc": "Ingin ketenangan pikiran di cloud? Sinkronkan cadangan Anda dengan aman ke Google Drive untuk lapisan perlindungan data tambahan."
+    },
+    "easy": {
+      "title": "Mudah Digunakan",
+      "desc": "Antarmuka bersih dan intuitif yang dibangun dengan Flutter. Dirancang untuk kecepatan sehingga Anda dapat fokus pada pelanggan, bukan teknologi."
+    }
+  },
+  "tech": {
+    "title": "Dibangun dengan Teknologi Modern",
+    "flutter": "Flutter",
+    "offline_arch": "Arsitektur Offline-First",
+    "local_db": "Database Lokal Aman"
+  },
+  "cta_bottom": {
+    "title": "Siap untuk menyederhanakan bisnis Anda?",
+    "desc": "OPOS saat ini tersedia hanya melalui undangan. Gratis untuk diakses bagi pengguna awal. Hubungi saya untuk mendapatkan salinan Anda hari ini.",
+    "button": "Minta Akses via Email",
+    "note": "Tidak perlu kartu kredit. Tidak ada biaya tersembunyi."
+  },
+  "footer": {
+    "rights": "Hak cipta dilindungi undang-undang."
+  }
+}

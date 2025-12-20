@@ -1,0 +1,53 @@
+{
+  "nav": {
+    "contact": "Contact Developer"
+  },
+  "hero": {
+    "badge": "Currently in Private Beta",
+    "title": "Empower Your Business,",
+    "subtitle": "The complete Point of Sale solution designed for small businesses. Track sales, manage stock, and grow your business without relying on an internet connection.",
+    "cta_request": "Request Access",
+    "cta_learn_more": "Learn More",
+    "screenshot_placeholder": "App Screenshot Placeholder",
+    "screenshot_desc": "Dashboard / Main POS View"
+  },
+  "features": {
+    "title": "Everything you need to run your shop",
+    "subtitle": "Built with a focus on reliability and speed, OPOS gives you the tools to manage your business efficiently.",
+    "offline": {
+      "title": "Completely Offline",
+      "desc": "Never worry about internet outages again. OPOS works 100% offline, ensuring your business keeps running smoothly no matter what."
+    },
+    "rich": {
+      "title": "Rich Features",
+      "desc": "From sales tracking to inventory management, get powerful tools designed specifically for the needs of small businesses."
+    },
+    "backup": {
+      "title": "Manual Backup & Restore",
+      "desc": "Your data belongs to you. Easily create backups of your entire database and restore them whenever you need to."
+    },
+    "sync": {
+      "title": "Google Drive Sync",
+      "desc": "Want cloud peace of mind? Sync your backups securely to your Google Drive for an extra layer of data protection."
+    },
+    "easy": {
+      "title": "Easy to Use",
+      "desc": "Clean, intuitive interface built with Flutter. Designed for speed so you can focus on your customers, not the technology."
+    }
+  },
+  "tech": {
+    "title": "Built with Modern Technology",
+    "flutter": "Flutter",
+    "offline_arch": "Offline-First Architecture",
+    "local_db": "Secure Local Database"
+  },
+  "cta_bottom": {
+    "title": "Ready to streamline your business?",
+    "desc": "OPOS is currently available by invitation only. It's free to access for early adopters. Contact me to get your copy today.",
+    "button": "Request Access via Email",
+    "note": "No credit card required. No hidden fees."
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
