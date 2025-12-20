@@ -27,7 +27,7 @@ export default async function Home({ params }: { params: Promise<{ lang: "en" | 
               <Link href="/id" className={`hover:text-blue-600 ${lang === 'id' ? 'text-blue-600 font-bold' : ''}`}>ID</Link>
             </div>
             <a
-              href="mailto:your-email@example.com"
+              href="mailto:pub.billbull21@gmail.com"
               className="text-sm font-medium text-slate-600 hover:text-blue-600 transition-colors"
             >
               {dict.nav.contact}
@@ -55,7 +55,7 @@ export default async function Home({ params }: { params: Promise<{ lang: "en" | 
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="mailto:your-email@example.com?subject=Request Access to OPOS"
+                href="mailto:pub.billbull21@gmail.com?subject=Request Access to OPOS"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-8 py-3.5 text-base font-semibold text-white bg-blue-600 rounded-full hover:bg-blue-700 transition-all shadow-lg shadow-blue-200 hover:shadow-blue-300"
               >
                 <Mail className="w-5 h-5" />
@@ -180,11 +180,17 @@ export default async function Home({ params }: { params: Promise<{ lang: "en" | 
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-6">
               {dict.cta_bottom.title}
             </h2>
-            <p className="text-blue-100 text-lg mb-10 max-w-2xl mx-auto">
+            <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
               {dict.cta_bottom.desc}
             </p>
+            
+            <div className="flex items-center justify-center gap-3 mb-10 text-blue-200 text-sm font-medium">
+              <span className="bg-blue-700/50 px-3 py-1 rounded-full border border-blue-500/30">Android</span>
+              <span className="bg-blue-700/50 px-3 py-1 rounded-full border border-blue-500/30">iOS</span>
+            </div>
+
             <a
-              href="mailto:your-email@example.com?subject=Request Access to OPOS"
+              href="mailto:pub.billbull21@gmail.com?subject=Request Access to OPOS"
               className="inline-flex items-center justify-center gap-2 px-8 py-4 text-lg font-bold text-blue-600 bg-white rounded-full hover:bg-blue-50 transition-all shadow-xl"
             >
               <Mail className="w-5 h-5" />
