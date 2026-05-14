@@ -75,11 +75,12 @@ export default async function Home({ params }: { params: Promise<{ lang: "en" | 
           <div className="relative mt-12 lg:mt-20 rounded-2xl border border-slate-200 bg-slate-50 p-2 sm:p-4 shadow-2xl shadow-slate-200/50">
             <div className="aspect-[16/9] rounded-xl bg-slate-200 overflow-hidden relative flex items-center justify-center group">
               <Image 
-                src="/images/dashboard.png" 
+                src="/images/dashboard.gif" 
                 alt="OPOS Dashboard" 
                 fill 
                 className="object-cover object-top"
                 priority
+                unoptimized
               />
             </div>
           </div>
