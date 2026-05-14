@@ -77,8 +77,8 @@ export default async function Home({ params }: { params: Promise<{ lang: "en" | 
               <Image 
                 src="/images/dashboard.gif" 
                 alt="OPOS Dashboard" 
-                fill 
-                className="object-cover object-top"
+                fill
+                className="object-contain object-top"
                 priority
                 unoptimized
               />
