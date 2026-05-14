@@ -33,6 +33,10 @@
     "easy": {
       "title": "Mudah Digunakan",
       "desc": "Antarmuka bersih dan intuitif yang dibangun dengan Flutter. Dirancang untuk kecepatan sehingga Anda dapat fokus pada pelanggan, bukan teknologi."
+    },
+    "secure": {
+      "title": "Terenkripsi & Aman",
+      "desc": "Data Anda dilindungi dengan enkripsi SQLCipher AES-256 — standar industri untuk mengamankan database lokal. Data bisnis Anda selalu terjaga kerahasiaannya."
     }
   },
   "tech": {
@@ -46,6 +50,30 @@
     "desc": "OPOS tersedia untuk Android dan iOS. Saat ini didistribusikan secara pribadi karena kami sedang mempersiapkan rilis App Store dan Play Store. Hubungi saya untuk mendapatkan salinan Anda hari ini.",
     "button": "Minta Akses via Email",
     "note": "Tidak perlu kartu kredit. Tidak ada biaya tersembunyi."
+  },
+  "showcase": {
+    "title": "Lihat Aplikasinya",
+    "subtitle": "Jelajahi fitur-fitur yang menjadikan OPOS teman terbaik untuk bisnis Anda.",
+    "dashboard_ui": {
+      "title": "UI Intuitif yang Nyaman",
+      "desc": "Antarmuka modern dan intuitif yang dirancang agar mudah dan menyenangkan digunakan setiap hari — tanpa perlu pelatihan khusus."
+    },
+    "monitoring_shift": {
+      "title": "Monitoring Shift",
+      "desc": "Aplikasi multi-pengguna dan multi-role yang dioptimalkan untuk pelacakan dan analisis performa shift kasir secara real-time."
+    },
+    "master_management": {
+      "title": "Kemudahan Mengatur Data",
+      "desc": "Menu master untuk kemudahan dalam mengatur dan mengelola semua data pokok penjualan Anda dalam satu tempat."
+    },
+    "laporan_penjualan": {
+      "title": "Laporan Transaksi yang Informatif",
+      "desc": "Data laporan penjualan yang informatif dan modern untuk memantau performa bisnis Anda dengan sekali lihat."
+    },
+    "analisis_stok": {
+      "title": "Analisis & Atur Stok Terintegrasi",
+      "desc": "Pantau stok produk dan analisis performa produk tanpa batas — semua tersedia dalam satu platform."
+    }
   },
   "footer": {
     "rights": "Hak cipta dilindungi undang-undang."

@@ -1,4 +1,4 @@
-import { WifiOff, Smartphone, Save, Cloud, Mail, CheckCircle2, ArrowRight, Globe } from "lucide-react";
+import { WifiOff, Smartphone, Save, Cloud, Mail, CheckCircle2, ArrowRight, Globe, ShieldCheck } from "lucide-react";
 import Image from "next/image";
 import RotatingText from "../components/RotatingText";
 import { getDictionary } from "../dictionaries";
@@ -71,17 +71,69 @@ export default async function Home({ params }: { params: Promise<{ lang: "en" | 
             </div>
           </div>
 
-          {/* Hero Screenshot Placeholder */}
-          <div className="relative mt-12 lg:mt-20 rounded-2xl border border-slate-200 bg-slate-50 p-2 sm:p-4 shadow-2xl shadow-slate-200/50">
-            <div className="aspect-[16/9] rounded-xl bg-slate-200 overflow-hidden relative flex items-center justify-center group">
-              <Image 
-                src="/images/dashboard.gif" 
-                alt="OPOS Dashboard" 
-                fill
-                className="object-contain object-top"
-                priority
-                unoptimized
-              />
+          {/* Highlight Feature Section */}
+          <div className="mt-20">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl font-bold text-slate-900">{dict.showcase.title}</h2>
+              <p className="text-slate-500 mt-3 text-base">{dict.showcase.subtitle}</p>
+            </div>
+
+            <div className="space-y-24 lg:space-y-32">
+              {[
+                {
+                  title: dict.showcase.dashboard_ui.title,
+                  desc: dict.showcase.dashboard_ui.desc,
+                  image: '/images/dashboard_ui.png',
+                },
+                {
+                  title: dict.showcase.monitoring_shift.title,
+                  desc: dict.showcase.monitoring_shift.desc,
+                  image: '/images/monitoring_shift.png',
+                },
+                {
+                  title: dict.showcase.master_management.title,
+                  desc: dict.showcase.master_management.desc,
+                  image: '/images/master_management.png',
+                },
+                {
+                  title: dict.showcase.laporan_penjualan.title,
+                  desc: dict.showcase.laporan_penjualan.desc,
+                  image: '/images/laporan_penjualan.png',
+                },
+                {
+                  title: dict.showcase.analisis_stok.title,
+                  desc: dict.showcase.analisis_stok.desc,
+                  image: '/images/analisis_stok.png',
+                },
+              ].map((item, index) => (
+                <div
+                  key={index}
+                  className={`flex flex-col ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'} items-center gap-10 lg:gap-16`}
+                >
+                  <div className="flex-1 text-left">
+                    <span className="text-6xl font-black text-slate-100 select-none leading-none">
+                      {String(index + 1).padStart(2, '0')}
+                    </span>
+                    <h3 className="text-2xl lg:text-3xl font-bold text-slate-900 mt-2 mb-4">
+                      {item.title}
+                    </h3>
+                    <p className="text-slate-600 leading-relaxed text-base lg:text-lg">
+                      {item.desc}
+                    </p>
+                  </div>
+                  <div className="flex-1 w-full">
+                    <div className="relative rounded-2xl overflow-hidden border border-slate-200 shadow-xl shadow-slate-200/60">
+                      <Image
+                        src={item.image}
+                        alt={item.title}
+                        width={800}
+                        height={600}
+                        className="w-full h-auto"
+                      />
+                    </div>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </section>
@@ -149,6 +201,17 @@ export default async function Home({ params }: { params: Promise<{ lang: "en" | 
                 <h3 className="text-xl font-bold text-slate-900 mb-3">{dict.features.easy.title}</h3>
                 <p className="text-slate-600 leading-relaxed">
                   {dict.features.easy.desc}
+                </p>
+              </div>
+
+              {/* Feature 6 */}
+              <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-violet-100 rounded-xl flex items-center justify-center text-violet-600 mb-6">
+                  <ShieldCheck className="w-6 h-6" />
+                </div>
+                <h3 className="text-xl font-bold text-slate-900 mb-3">{dict.features.secure.title}</h3>
+                <p className="text-slate-600 leading-relaxed">
+                  {dict.features.secure.desc}
                 </p>
               </div>
             </div>

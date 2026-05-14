@@ -33,6 +33,10 @@
     "easy": {
       "title": "Easy to Use",
       "desc": "Clean, intuitive interface built with Flutter. Designed for speed so you can focus on your customers, not the technology."
+    },
+    "secure": {
+      "title": "Encrypted & Secure",
+      "desc": "Your data is protected with SQLCipher AES-256 encryption — the industry standard for securing local databases. Your business data stays private, always."
     }
   },
   "tech": {
@@ -46,6 +50,30 @@
     "desc": "OPOS is available for Android and iOS. Currently distributed privately as we prepare for App Store and Play Store release. Contact me to get your copy today.",
     "button": "Request Access via Email",
     "note": "No credit card required. No hidden fees."
+  },
+  "showcase": {
+    "title": "See It In Action",
+    "subtitle": "Explore the features that make OPOS the perfect companion for your business.",
+    "dashboard_ui": {
+      "title": "An Intuitive & Comfortable Interface",
+      "desc": "A modern, intuitive UI designed to be easy and pleasant to use every single day — no training required."
+    },
+    "monitoring_shift": {
+      "title": "Shift Monitoring",
+      "desc": "A multi-user, multi-role app optimized for tracking and analyzing cashier shift performance in real time."
+    },
+    "master_management": {
+      "title": "Effortless Data Management",
+      "desc": "Master data menus make it simple to organize and maintain all your core sales data in one place."
+    },
+    "laporan_penjualan": {
+      "title": "Detailed Transaction Reports",
+      "desc": "Informative and modern sales reports to keep you on top of your business performance at a glance."
+    },
+    "analisis_stok": {
+      "title": "Integrated Stock Analysis & Control",
+      "desc": "Monitor product stock levels and analyze product performance without limits — all in one platform."
+    }
   },
   "footer": {
     "rights": "All rights reserved."
